@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="artikkelstil.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	<title>MathML</title>
+	<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=MML_CHTML">
+	</script>
+	
+	</head>
+		<body>
+			<div id="master-grid">
+				<header>
+					<img id="headerPic" src="header.jpg" alt="header"/>
+				</header>
+				<nav id="nav">
+				<ul>
+					<li><a href="index.html"><i class="fa fa-home" aria-hidden="true" style="font-size:40px;"></i></a></li>
+					<li><a href="#">Artikler</a>
+						<ul>
+							<li><a href="svg.html">SVG</a></li>
+							<li><a href="mathml.html">MathML</a></li>
+							<li><a href="git.html">Git og GitHub</a></li>
+						</ul>
+					</li>
+					<li><a href="obliger.html">Obliger</a>
+						<ul>
+							<li><a href="http://frigg.hiof.no/~ramonath/oblig1web/index.html">Oblig 1</a></li>
+						</ul>
+					</li>
+					<li><a href="linkarkiv.html">Linkarkiv</a></li>
+				</ul>	
+			</nav>
+		
+			<article id="main">
+			<h2>MathML</h2>
+				<p>
+				MathML består av flere XML tagger som kan bli brukt til å markere en ligning
+				i forhold til presentasjon og semantikk. Altså den fanger også mening bak i stedet
+				for å bare fokusere på hvordan dem blir formatert. 
+				Den er tiltenkt tilrettelegging for bruk av matematiske
+				og vitenskapelig innhold på nettet.
+				</p>
+				<p>
+				Det er totyper MathML:
+				</p>
+					<ul>
+						<li>C-MathML - Beholder semantikken i det matematiske uttrykket</li>
+						<li>P-MathML – Beskriver hvordan det skal vises</li>
+					</ul>
+				<p>
+				MathML er den del av HTML5 men det er ikke alle nettlesere som støtter det.
+				Man må derfor bruke MathJax i praksis.
+				</p>
+			</article>
+			<article id="presentation">
+				<math id="jerk">
+					<mfrac>
+						<mrow>
+							<msup>
+								<mi>d</mi>
+								<mn>3</mn>
+									</msup>
+								<mi>x</mi>
+										</mrow>
+										<mrow>
+								<mi>d</mi>
+									<msup>
+								<mi>t</mi>
+								<mn>3</mn>
+							</msup>
+						</mrow>
+					</mfrac>
+				</math>
+				
+				<math>
+				<mfrac>
+					<mrow>
+						<msub>
+						<mi>Beer</mi>
+						<mi>n</mi>
+							</msub>
+						<mo>=</mo>
+							<mi>1</mi>
+									</mrow>
+										<mrow>			
+										<msup>
+										<mn>2</mn>
+										<mrow>
+										<mi>n</mi>
+										<mo>&minus;</mo>
+									<mn>1</mn>
+								</mrow>
+							</mfrac>
+						</msup>
+					</mrow>
+				</math>
+
+			</article>
+			
+			<article id="content">
+			
+			</article>
+			
+			<footer>
+				<a href="omdenne.html">Om denne siden link</a>
+			</footer>
+			
+			</div>
+		</body>
+		
+	
+	
+</html>	

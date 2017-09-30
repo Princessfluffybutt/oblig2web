@@ -1,24 +1,22 @@
  html{
 	margin: 0;
 	padding: 0;
-	display: block;
-			
-			-webkit-box-sizing: border-box;
-			-moz-box-sizing: border-box;
-			box-sizing: border-box;
+	display: block;		
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
-div#master-grid {
-	
+#master-grid {
 	max-width: 1200px;
 	margin: 0 auto;
 	display: grid;
-	grid-gap: 10px;
+	grid-gap: 20px;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 250px 70px 400px 100px 100px 100px 40px;
+	grid-template-rows: 300px 70px 400px 100px 40px;
 	grid-template-areas: "header header header"
 						"nav nav nav"
-						 "main main svgB1"
-						 "main main svgB2"
+						 "main main aside1"
+						 "main main aside2"
 						 "footer footer footer";				
 }
 
@@ -71,13 +69,24 @@ nav ul li ul li a{
 	grid-area: main;
 }
 #svgB1 {
-	grid-area: svgB1;
+	grid-area: aside1;
 }
 svg {
 	margin-left: 100px;
 }
 #svgB2 {
-	grid-area: svgB2;
+	grid-area: aside2;
+}
+#presentation{
+	
+}
+#jerk{ 
+font-size:15pt;
+}
+
+#gitpic {
+	width:100%;
+	height:100%;
 }
 footer  {
 	grid-area: footer;

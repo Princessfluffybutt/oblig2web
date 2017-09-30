@@ -3,7 +3,8 @@
 <head>
 	<meta charset="utf-8" />
 	<link rel="stylesheet" type="text/css" href="mainstyle.css"/>
-	<title>Testside</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	<title>Forside</title>
 </head>
 
 
@@ -15,12 +16,12 @@
 			
 			<nav id="nav">
 				<ul>
-					<li><a href="index.html">Forside</a></li>
+					<li><a href="index.html"><i class="fa fa-home" aria-hidden="true" style="font-size:40px;"></i></a></li>
 					<li><a href="#">Artikler</a>
 						<ul>
 							<li><a href="svg.html">SVG</a></li>
-							<li><a href="#">MathML</a></li>
-							<li><a href="#">Git og GitHub</a></li>
+							<li><a href="mathml.html">MathML</a></li>
+							<li><a href="git.html">Git og GitHub</a></li>
 						</ul>
 					</li>
 					<li><a href="obliger.html">Obliger</a>
@@ -28,36 +29,130 @@
 							<li><a href="http://frigg.hiof.no/~ramonath/oblig1web/index.html">Oblig 1</a></li>
 						</ul>
 					</li>
-					<li><a href="linkarkiv">Linkarkiv</a></li>
+					<li><a href="linkarkiv.html">Linkarkiv</a></li>
 				</ul>	
 			</nav>
 			
 			<article id="maincontent">
-				<p>svg</p>
+				<p> ja vi får se </p>
 			</article>
 			
-			<article id="main2">
-				<p>mathML</p>
+				<article id="svgGrid">
+				<h3>SVG</h3>
+					<p>
+						Hva om du kan skrive et element rett inn i koden?
+						Kanskje til og med style det med CSS?
+						Hadde ikke det vært helt magisk?
+					</p>
+					<a href="svg.html">
+						<svg id="linkSvg" height="160" width="160">
+							<path d="M20 20 20 150 150 80" />
+							Din nettleser klarer ikke lese SVG
+						</svg>
+					</a>
+					
+				
+			</article>
+			<article id="mathmlGrid">
+			
+				<h3>MathML <img id="pi" src="pi.png"/></h3>
+					
+					<p>
+						Noen ganger er det greit å kunne editere matematikken direkte på siden.
+					</p> 
+					
+						<math>
+							<mrow>
+								<msup>
+								<mi>x</mi>
+								<mn>2</mn>
+										</msup>
+										<mo>+</mo>
+										<msup>
+											<mi>y</mi>
+											<mn>2</mn>
+										</msup>
+									<mo>=</mo>
+									<msup>
+									<mi>n</mi>
+									<mn>2</mn>
+								</msup>
+							</mrow>
+						</math>
+					
+				
 			</article>
 			
-			<article id="main3">
-				<p>GitHub</p>
+			<article id="githubGrid">
+				<h3>Git og GitHub</h3>
+					<p>
+					Kunne du tenkt deg et program som gjør det lettere å holde oversikten?
+					</p>
+					<p>
+					Think of it as a cloud for code
+					</p>
+					<a href="gir.html">Les mer</a>
 			</article>
 			
-			<article id="main4">
-				<p>Forelesning</p>
-			</article>
+		
 			
-			<article id="main5">
-				<p>Støttetimer</p>
+			<article id="timeplanGrid">
+				<h3>Oversikt forelesning og øvingstimer</h3>
+				<table id="timeplan">
+						<tr>
+							<th>Tid</th>
+							<th>Mandag</th>
+							<th>Tirsdag</th>
+							<th>Onsdag</th>
+							<th>Torsdag</th>
+							<th>Fredag</th>
+						</tr>
+						<tr>
+							<td>08:15</td>
+							<td>Øvingstimer</td>
+							<td>Infprog</td>
+							<td>Øvingstimer</td>
+							<td>Øvingstimer</td>
+							<td>Web (09:15)</td>
+						</tr>
+						<tr>
+							<td>10:15</td>
+							<td>Øvingstimer </td>
+							<td>Øvingstimer</td>
+							<td>Øvingstimer </td>
+							<td>Infprog</td>
+							<td>Øvingstimer(11:15)</td>
+						</tr>	
+						<tr>
+							<td>12:15</td>
+							<td>Infprog</td>
+							<td>Øvingstimer </td>
+							<td>Web</td>
+							<td>Øvingstimer</td>
+							<td>Øvingstimer</td>
+						</tr>
+						<tr>
+							<td>14:15</td>
+							<td>Web</td>
+							<td>Øvingstimer </td>
+							<td>Infprog</td>
+							<td> - </td>
+							<td>Øvingstimer</td>
+						</tr>
+					</table>
 			</article>
-			
 			<article id="main6">
-				<p>LSDJgzdfhxfg</p>
+				<img id="elskerGrid" src="hjertegrid.png" alt="Vi elsker Grid!"/>
 			</article>
 			
 			<aside id="aside">
-				<p>obliger</p>
+				<h3>Obliger</h3>
+					<p>Oblig 1 20.09.17</p>
+					<p>Oblig 2 04.10.17</p>
+					<p>Oblig 3 18.10.17</p>
+					<p>Oblig 4 01.11.17</p>
+					<p>Oblig 5 15.11.17</p>
+				
 			</aside>
 			
 			<footer>
