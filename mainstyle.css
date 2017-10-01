@@ -1,4 +1,5 @@
  html{
+	background: #D1D1B9;
 	margin: 0;
 	padding: 0;
 	display: block;	
@@ -127,6 +128,16 @@ h3 {
 	border-radius: 10px;
 	Background: white;
 	padding: 10px;
+	text-align: center;
+}
+a#checkit{
+	font-size: 40pt;	
+}
+a#checkit:hover {
+	color: #77787a;
+}
+#linkSvg {
+	float: right;
 }
 #linkSvg:hover {
     border: 3px solid black;
@@ -134,14 +145,12 @@ h3 {
 	background: #77787a;
 }
 #linkSvg:visited {           /*hvordan får jeg den til å se besøkt ut?*/
-	background: #FFB200;
-
+	background: #FFB200;	
 }
 								/*timeplan*/
 #timeplanGrid {
 	grid-area: main5;
-	
-	
+	background: white;
 }
 #timeplan {
 	margin: auto;
