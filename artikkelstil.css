@@ -1,6 +1,7 @@
 @import url ("normalize.css");
 
 html{
+	background: #D1D1B9;
 	margin: 0;
 	padding: 0;
 	display: block;		
@@ -26,12 +27,12 @@ html{
 header {
 	grid-area: header;
 }
-#headerPic {
+#headerPic, #notater, #skisseforside, #skisseartikkel, #gitpic, #oblig1 {
 	width: 100%;
 	height: 100%;
 }
 a:visited {
-	color: #FFB200;
+	color: #FF382E;
 }
 a:link {
 	color: white;
@@ -43,7 +44,7 @@ a:link {
 .hovedLink:hover {
 	color:#77787a;
 }
-#nav {
+#nav {					/*navigering*/
 	grid-area: nav;
 	background: black;
 }
@@ -107,33 +108,8 @@ svg {
 font-size:100px;
 }
 
-#gitpic {
-	width:100%;
-	height:100%;
-}
-#asideBilde{
-	grid-area: aside1;
+figcaption {
 	text-align: center;
-}
-#notater {
-	width: 100%;
-	height: 100%;
-}
-#asideBilde2 {
-	grid-area: aside2;
-	text-align: center;
-}
-#skisseforside {
-	width: 100%;
-	height:100%;
-}
-#asideBilde3 {
-	grid-area: aside3;
-	text-align: center;
-}
-#skisseartikkel {
-	width: 100%;
-	height: 100%;
 }
 #asideTabell {
 	grid-area: aside4;
@@ -149,13 +125,14 @@ table, th, td {
 th, td {
 	padding: 10px;
 }
-#asideTabell tr:nth-child(even) {
+#asideTabell tr:nth-child(even) {  /*tabell på om denne siden*/
 	background-color: #363738;
 	color: white;
 }
 #asideTabell tr:nth-child(odd) {
 	background-color: #a5a5a5;
 }
+
 footer  {
 	grid-area: footer;
 	background: black;

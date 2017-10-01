@@ -19,7 +19,7 @@ html{
 	grid-template-areas: "header header header"
 						"nav nav nav"
 						 "bilde bilde aside"
-						 "main4 main4 aside1"
+						 "main4 main4 main4"
 						 "main2 main3 main3"
 						 "main5 main5 main6"
 						 "footer footer footer";
@@ -34,7 +34,7 @@ header {
 	height: 100%;
 }
 a:visited {
-	color: #FFB200;
+	color: #FF382E;
 }
 a:link {
 	color: white;
