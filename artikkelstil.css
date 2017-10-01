@@ -1,4 +1,6 @@
- html{
+@import url ("normalize.css");
+
+html{
 	margin: 0;
 	padding: 0;
 	display: block;		
@@ -160,8 +162,12 @@ footer  {
 }
 p.copy {
 	color: white;
-	text-align: center;
-	margin-bottom: 30px;
+	float: right;
+	margin-right: 10px;
+}
+#footerLink {
+	position:absolute;
+	margin: 20px 20px;
 }
 a:active {
 	color: white;
