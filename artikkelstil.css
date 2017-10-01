@@ -7,16 +7,16 @@
 	box-sizing: border-box;
 }
 #master-grid {
-	max-width: 1200px;
+	max-width: 1000px;
 	margin: 0 auto;
 	display: grid;
 	grid-gap: 20px;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 300px 70px 400px 100px 40px;
+	grid-template-rows: 300px 70px auto 300px 50px;
 	grid-template-areas: "header header header"
 						"nav nav nav"
 						 "main main aside1"
-						 "main main aside2"
+						 "main2 main2 aside2"
 						 "footer footer footer";				
 }
 
@@ -26,6 +26,19 @@ header {
 #headerPic {
 	width: 100%;
 	height: 100%;
+}
+a:visited {
+	color: #FFB200;
+}
+a:link {
+	color: white;
+}
+.underLink:hover {
+	color: #77787a ;
+	
+}
+.hovedLink:hover {
+	color:#77787a;
 }
 #nav {
 	grid-area: nav;
@@ -52,7 +65,7 @@ nav ul li ul{
 }
 nav ul li:hover ul{
 	display: block;
-	background: gray;
+	background: black;
 	border: 1px solid black;
 	border-radius: 10px;
 }	
@@ -77,11 +90,13 @@ svg {
 #svgB2 {
 	grid-area: aside2;
 }
-#presentation{
-	
+#mathGrid {
+	grid-area: aside1;
+	text-align: center;
+	padding: 30%;
 }
 #jerk{ 
-font-size:15pt;
+font-size:100px;
 }
 
 #gitpic {
@@ -90,6 +105,8 @@ font-size:15pt;
 }
 footer  {
 	grid-area: footer;
-	border: 2px solid black;
+	background: black;
 }
-
+a:active {
+	color: white;
+}	
