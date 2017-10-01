@@ -19,7 +19,7 @@ html{
 	grid-template-areas: "header header header"
 						"nav nav nav"
 						 "bilde bilde aside"
-						 "main4 main4 main4"
+						 "main4 main4 aside1"
 						 "main2 main3 main3"
 						 "main5 main5 main6"
 						 "footer footer footer";
@@ -149,6 +149,7 @@ a#checkit:hover {
 #linkSvg:visited {           /*hvordan får jeg den til å se besøkt ut?*/
 	background: #FFB200;	
 }
+
 								/*timeplan*/
 #timeplanGrid {
 	grid-area: main5;
