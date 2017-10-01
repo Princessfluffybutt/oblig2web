@@ -34,7 +34,10 @@ header {
 a:visited {
 	color: #FF382E;
 }
-a:link {
+.underLink:link {
+	color: black;
+}
+.hovedLink:link {
 	color: white;
 }
 .underLink:hover {
