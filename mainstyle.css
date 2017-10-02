@@ -157,6 +157,7 @@ a#checkit:hover {
 #timeplanGrid {
 	grid-area: main5;
 	background: white;
+	overflow: scroll;
 }
 #timeplan {
 	margin: auto;
@@ -206,6 +207,7 @@ p.copy {
 #footerLink {
 	position:absolute;
 	margin: 20px 20px;
+	color: white;
 }
 
 a:active {
