@@ -209,7 +209,9 @@ p.copy {
 	margin: 20px 20px;
 	color: white;
 }
-
+#footerLink:hover {
+	color: #77787a;
+}
 a:active {
 	color: white;
 }	

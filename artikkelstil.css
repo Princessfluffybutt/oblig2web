@@ -100,15 +100,33 @@ svg {
 	margin-left: 100px;
 }
 #svgB2 {
-	grid-area: aside2;
+	grid-area: aside3;
+}
+.ansikt {
+	fill: white;
 }
 #mathGrid {
 	grid-area: aside1;
 	text-align: center;
-	padding: 30%;
+	padding: 20%;
 }
 #jerk{ 
 font-size:100px;
+}
+#mathGrid1 {
+	grid-area: aside3;
+	text-align: center;	
+}
+#eulerIdentity {
+	font-size: 50px;
+}
+#mathGrid2 {
+	grid-area: aside4;
+	text-align: right;
+	padding: 20px;
+}
+#pythagorean {
+	font-size: 50px;
 }
 
 figcaption {
@@ -155,6 +173,9 @@ p.copy {
 	position:absolute;
 	margin: 20px 20px;
 	color: white;
+}
+#footerLink:hover {
+	color: #77787a;
 }
 a:active {
 	color: white;
