@@ -1,4 +1,4 @@
-@import url ("normalize.css");
+@import url("normalize.css");
 
 html{
 	background: #D1D1B9;
@@ -13,6 +13,7 @@ html{
 	max-width: 1000px;
 	margin: 0 auto;
 	display: grid;
+	font-size: 15px;
 	grid-gap: 20px;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 300px 70px auto auto auto 70px;
@@ -31,6 +32,13 @@ header {
 	width: 100%;
 	height: 100%;
 }
+#overskrift {
+	position: absolute;
+	margin-top: 260px;
+	color: white;
+	font-size: 1.5rem;
+}
+
 a:visited {
 	color: #FF382E;
 }
@@ -47,7 +55,8 @@ a:visited {
 .hovedLink:hover {
 	color:#77787a;
 }
-#nav {					/*navigering*/
+
+#nav {
 	grid-area: nav;
 	background: black;
 }
@@ -59,22 +68,22 @@ nav ul li {
 	margin-right: 20px; 
 }
 nav ul li a {
-	padding: 10px;
-	font-size: 17pt;  
+	padding: 20px;
+	font-size: 1.5rem;  
     line-height: 45px; 
 	text-decoration: none;
 	color: white;
 }
 nav ul li ul{
-	display:none;
-	position:absolute;
+	display: none;
+	position: absolute;
 	padding-left: 2px;
 }
 nav ul li:hover ul{
 	display: block;
 	background: black;
-	border: 1px solid black;
 	border-radius: 10px;
+	
 }	
 nav ul li ul li{
 	display: block;
@@ -85,7 +94,13 @@ nav ul li ul li a{
 	line-height: 20px;
 	text-align: left;
 }
-h1 {
+
+h3 {
+	text-align: center;
+	padding: 5px;
+}
+h1, h2 {
+	padding-bottom: 10px;
 	text-align: center;
 }
 #main {
@@ -102,9 +117,7 @@ svg {
 #svgB2 {
 	grid-area: aside3;
 }
-.ansikt {
-	fill: white;
-}
+
 #mathGrid {
 	grid-area: aside1;
 	text-align: center;
@@ -131,6 +144,7 @@ font-size:100px;
 
 figcaption {
 	text-align: center;
+	font-size: 8pt;
 }
 #asideTabell {
 	grid-area: aside4;

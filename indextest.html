@@ -2,11 +2,15 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<link rel="stylesheet" type="text/css" href="mainstyle.css"/>
+	<meta name= "viewport" content= "width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="mainstyletest.css"/>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 	<title>Forside</title>
 </head>
+
+
 	<body>
+'
 		<div id="master-grid">
 			<header>
 				<h1 id="overskrift"> Obligatorisk innlevering 2 </h1>
@@ -26,12 +30,12 @@
 						<li><a class="hovedLink" href="linkarkiv.html">Linkarkiv</a></li>	
 					</ul>	
 				</nav>
-			
-			<article id="dekorbildeGrid">
+		
+			<article id="dekorbildeGrid" class="flex">
 				<img id="dekorbilde" src="lysdata.jpg" alt="Dekorbilde"/>
 			</article>
 			
-			<article id="svgGrid">
+				<article id="svgGrid" class="flex">
 				<h3>SVG</h3>
 					<p>
 						Hva om du kan skrive et element rett inn i koden?
@@ -39,10 +43,15 @@
 						Hadde ikke det vært helt magisk?
 					</p>
 					<a id="checkit" class="underLink" href="svg.html">Check it out!</a>
-			</article>
+			<article id="linkarkiv">
 			
+			</article>
+				
+			</article class="flex">
 			<article id="mathmlGrid">
+			
 				<h3>MathML <img id="pi" src="pi.png" alt="Bilde av Pi"/></h3>
+					
 					<p>
 						Noen ganger er det greit å kunne editere matematikken direkte på siden.
 					</p> 
@@ -67,7 +76,7 @@
 					<p><a class="underLink" href="mathml.html">Les mer</a></p>
 			</article>
 			
-			<article id="githubGrid">
+			<article id="githubGrid" class="flex">
 				<h3>Git og GitHub</h3>
 					<p>
 					Kunne du tenkt deg et program som gjør det lettere å holde oversikten?
@@ -80,7 +89,8 @@
 			
 		
 			
-			<article id="timeplanGrid">
+			<article id="timeplanGrid" class="flex">
+				
 				<table id="timeplan">
 						<tr>
 							<th>Tid</th>
@@ -123,12 +133,12 @@
 							<td>Øvingstimer</td>
 						</tr>
 					</table>
-			</article>
+			</article class="flex">
 			<article id="main6">
 				<img id="elskerGrid" src="hjertegrid.png" alt="Vi elsker Grid!"/>
 			</article>
 			
-			<aside id="aside">
+			<aside id="aside" class="flex">
 				<h3>Obliger</h3>
 					<p>Oblig 1 20.09.17</p>
 					<p>Oblig 2 04.10.17</p>
