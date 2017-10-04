@@ -24,11 +24,13 @@ html{
 						 "main3	aside4 aside4"
 						 "footer footer footer";				
 }
-
+h1, h2, h3, h4, p, a, ul, li, table {
+	font-family: 'Open Sans', sans-serif;
+}
 header {
 	grid-area: header;
 }
-#headerPic, #notater, #skisseforside, #skisseartikkel, .gitpic, #oblig1, #ice {
+#headerPic, #notater, #skisseforside, #skisseartikkel, .gitpic, #oblig1, #ice, #webserver {
 	width: 100%;
 	height: 100%;
 }
@@ -93,6 +95,7 @@ nav ul li ul li a{
 	display: block;
 	line-height: 20px;
 	text-align: left;
+	font-size: 1rem;
 }
 
 h3 {

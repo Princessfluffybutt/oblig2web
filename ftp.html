@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"/>
+	<link rel="stylesheet" type="text/css" href="artikkelstil.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	<title>FTP</title>
+</head>
+	<body>
+		<div id="master-grid">
+			<header>
+				<h1 id="overskrift"> Obligatorisk innlevering 2</h1>
+				<img id="headerPic" src="header.jpg" alt="header"/>
+			</header>
+				<nav id="nav">
+					<ul>
+						<li><a class="hovedLink" href="index.html"><i class="fa fa-home" aria-hidden="true" style="font-size:35px;"></i></a></li>
+						<li><a class="hovedLink" href="artikkel.html">Artikler</a>
+							<ul>
+								<li><a class="hovedLink" href="svg.html">SVG</a></li>
+								<li><a class="hovedLink" href="mathml.html">MathML</a></li>
+								<li><a class="hovedLink" href="git.html">Git og GitHub</a></li>
+								<li><a class="hovedLink" href="webserver.html">Webservere</a></li>
+								<li><a class="hovedLink" href="ftp.html">FTP</a></li>
+							</ul>
+						</li>
+						<li><a class="hovedLink" href="oversiktobliger.html">Obliger</a></li>
+						<li><a class="hovedLink" href="linkarkiv.html">Linkarkiv</a></li>	
+					</ul>	
+				</nav>
+			<article id="main">
+				<h1>FTP</h1>
+				<p> 
+					Er en filoverføringsprotokoll (File Transfer Protocol). 
+					Det vil si en standard protokoll for overføring av filer i mellom
+					to datamaskiner. Den ble utviklet da sikkerhetsfunksjoner 
+					ikke ble prioritert men det har blitt utviklet sikrere versjoner i senere tid.
+				</p>
+				<p>
+					FTP-protokollen er uavhengig av operativsystem. 
+					For å overføre filer trengs det en FTP-konto på en FTP-server og
+					en FTP-klient installert på datamaskinen på samme måte som med webservere.
+					Dette kan ligge på samme maskin, men med to ulike programmer. 
+					For å overføre filer til webserveren blir ofte FTP brukt 
+					(<a href="https://no.wikipedia.org/wiki/FTP">Wikipedia.org</a>). 
+				</p>
+				<p>
+					SSH (Secure shell) File Transfer Protocol (SFTP) har omtrent samme muligheter
+					som FTP men med mulighet for kryptering av data og autentisering 
+					(<a href="https://no.wikipedia.org/wiki/SSH_File_Transfer_Protoco">wikipedia.org</a>).
+					Filezilla er et slikt program som overfører filer mellom datamaskiner. 
+					Filezilla godtar forespørsler for filer fra andre datamaskiner. 
+					Programmet er gratis å bruke og hvem som helst kan laste ned programmet 
+					(<a href="http://www.datamaskin.biz/Nettverk/ftp-telnet/66448.html#.Wb5kQchJZPY">Datamaskn.biz</a>). 
+				</p>
+				<p>
+					I Filezilla er det to måter å koble seg til en FTP-server på:
+			
+					Hurtigtilkobling brukes mest dersom du kun skal koble til en server en gang. 
+					Først skriver man inn ip-adressen til verten, deretter brukernavn 
+					og passord til kontoen. I SFTP bruker man port 22 (FTP bruker 21,20). 
+					Trykk på hurtigtilkobling. 
+				</p>
+				<p>
+					Serveradministrasjon brukes om man vil lagre innloggingen.
+					For å finne denne klikker man på CTRL + S. Trykk på ny tjener, 
+					fyll inn informasjonen som nevn over, protokoll settes til SFTP
+					og innloggingstype normal. Deretter koble til 
+					(<a href="http://itpro.no/artikkel/14566/innforing-i-filezilla/">Itpro.no</a>).
+				</p>
+				<p>Programvinduet: <img src="filezillaskjermbilde.jpg" alt="Bilde av Filezilla"/></p>
+					<ul>
+						<li>Lokal maskin: filer på din maskin</li>
+						<li>Filnavn: Viser filene du har valgt</li>
+						<li>Ekstern server/tjener: Viser mappene som er på serveren din</li>
+						<li>Filnavn: Viser valgt mappe på serveren</li>
+					</ul>	
+				<p>
+					Man laster opp filer til eksternt område fra lokal maskin
+					ved å høyreklikke på en fil på venstresiden.
+				</p>
+			</article>
+		<footer>
+			<a id="footerLink" href="omdenne.html">Om denne siden</a>
+			<p class="copy">Copyright RTH &copy; 2017</p>
+		</footer>
+		</div>
+	</body>
+</html>
